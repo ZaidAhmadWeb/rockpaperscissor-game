@@ -21,7 +21,7 @@ function playRound(userchoise) {
   const div = document.querySelector(".result");
   const content = document.createElement("div");
   content.style.cssText =
-    "color:white; background-color:gray; border:2px solid green; margin-top:10px; padding:2px; width:20%; font-size:20px;";
+    "color:white; background-color:gray; border:2px solid green; margin-top:10px; padding:2px; font-size:20px;";
   totalRound++;
   let computerguess = computerGuess();
   let userguess;
@@ -56,7 +56,7 @@ function playRound(userchoise) {
 const div = document.querySelector(".result");
 const content = document.createElement("div");
 content.style.cssText =
-  "color:white; background-color:blue; border:2px solid green; padding: 4px; margin-top:10px; margin-bottom:10px; padding:2px; width:20%; font-size:25px;";
+  "color:white; background-color:blue; border:2px solid green; padding: 4px; margin-top:10px; margin-bottom:10px; padding:2px; font-size:25px;";
 
 const buttons = document.querySelectorAll("button");
 buttons.forEach((btn) => {
